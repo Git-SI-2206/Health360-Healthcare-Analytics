@@ -20,7 +20,7 @@ The published workbook includes nine analytical worksheets, a dashboard with six
 - `index.html`, `assets/` — responsive website and Tableau Embedding API v3.
 - `app.py`, `requirements.txt`, `render.yaml` — Flask app/deployment configuration.
 - `prepare_data.py`, `smart_healthcare_dataset.csv`, `data/` — source CSV, reproducible preparation script, field dictionary and quality reports.
-- `Tableau/` — original assessment reference PDFs (pending upload).
+- `Tableau/` — three original assessment reference PDFs.
 - `tableau/` — Tableau build guide and performance-test template.
 - `docs/` — project documentation and demo script.
 - `PROJECT_STATUS.md`, `PUBLISHING_CHECKLIST.md` — handoff notes.
