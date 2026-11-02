@@ -21,7 +21,8 @@ The published workbook includes nine analytical worksheets, a dashboard with six
 - `app.py`, `requirements.txt`, `render.yaml` — Flask app/deployment configuration.
 - `prepare_data.py`, `smart_healthcare_dataset.csv`, `data/` — source CSV, reproducible preparation script, field dictionary and quality reports.
 - `Tableau/` — three original assessment reference PDFs.
-- `tableau/` — Tableau build guide and performance-test template.
+- `Tableau/` — three assessment reference PDFs, Tableau build guide and performance-test template.
+- `Report/` — merged project PDF and updated final report (PDF files to be uploaded).
 - `docs/` — project documentation and demo script.
 
 ## Run locally
