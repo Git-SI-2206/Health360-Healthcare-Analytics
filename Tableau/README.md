@@ -1,8 +1,9 @@
 # Tableau reference documents
 
-This folder is reserved for the original assessment PDFs shown in the project source:
-- Business Question and Visualisation Report.pdf
-- Dashboard Design Template.pdf
-- Story Design Template.pdf
+Original assessment reference PDFs:
 
-The exact PDF files have not yet been added because they are not available as separate attachments in this conversation. Upload the three original PDFs to this folder; do not substitute screenshots or reconstructed documents.
+1. [Business Question and Visualisation Report.pdf](./Business%20Question%20and%20Visualisation%20Report.pdf)
+2. [Dashboard Design Template.pdf](./Dashboard%20Design%20Template.pdf)
+3. [Story Design Template.pdf](./Story%20Design%20Template.pdf)
+
+These files are copied from the original project reference repository without modifying their contents. The Tableau build guide and performance-test template are in the lower-case `tableau/` folder.
