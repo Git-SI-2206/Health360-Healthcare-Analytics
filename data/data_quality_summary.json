@@ -1,0 +1,24 @@
+{
+ "source_rows":5000,
+ "source_columns":16,
+ "tableau_ready_rows":5000,
+ "tableau_ready_columns":27,
+ "missing_values_total":0,
+ "duplicate_rows":0,
+ "health_risk_score_unique_values":1,
+ "health_risk_score_min":100.0,
+ "health_risk_score_max":100.0,
+ "disease_prevalence_percent":{
+  "heart_disease":29.98,
+  "diabetes":34.92,
+  "stroke":24.86
+ },
+ "limitations":[
+  "Dataset provenance and licence were not supplied.",
+  "Units for BMI, blood pressure, cholesterol and glucose are undocumented.",
+  "Exercise codes 0, 1 and 2 are undefined.",
+  "Binary 0/1 display mappings are inferred from field names.",
+  "Disease flags are highly concentrated in older age bands; source methodology needs review.",
+  "health_risk_score is constant at 100.0 and must not be used as a differentiating score."
+ ]
+}
