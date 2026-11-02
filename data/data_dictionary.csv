@@ -1,0 +1,28 @@
+field_name,field_origin,storage_type,description_and_caveat,tableau_use
+age,source,int64,Numeric age value; unit not documented,Grouping/filtering only after confirming units
+gender,source,object,Observed categories Female and Male,Grouping/filtering
+bmi,source,float64,BMI-like numeric measure; unit/definition not documented,Exploratory grouping only
+exercise_level,source,int64,Codes 0 1 2; meanings not supplied,Retain as codes; do not infer meaning
+smoking,source,int64,Binary 0/1; No/Yes mapping inferred from field name,Confirm source encoding before interpretation
+alcohol,source,int64,Binary 0/1; No/Yes mapping inferred from field name,Confirm source encoding before interpretation
+blood_pressure,source,int64,Clinical indicator; unit/measurement type not documented,Exploratory comparison only
+cholesterol,source,int64,Clinical indicator; unit/method not documented,Exploratory comparison only
+glucose,source,int64,Clinical indicator; unit/method not documented,Exploratory comparison only
+fatigue,source,int64,Binary symptom flag; No/Yes mapping inferred,Confirm source encoding
+chest_pain,source,int64,Binary symptom flag; No/Yes mapping inferred,Confirm source encoding
+dizziness,source,int64,Binary symptom flag; No/Yes mapping inferred,Confirm source encoding
+heart_disease,source,int64,Binary outcome flag; No/Yes mapping inferred,Confirm source encoding
+diabetes,source,int64,Binary outcome flag; No/Yes mapping inferred,Confirm source encoding
+stroke,source,int64,Binary outcome flag; No/Yes mapping inferred,Confirm source encoding
+health_risk_score,source,float64,Constant 100.0 in all 5,000 records; formula undocumented,Exclude from differentiating KPI analysis
+age_group,derived,string,Project-defined bands 18-29 30-44 45-59 60-79,Grouping/filtering
+bmi_quartile,derived,string,Dataset-specific quartile bins; not clinical categories,Grouping/filtering
+exercise_level_label,derived,string,Display labels retain Code 0 1 2,Grouping/filtering
+smoking_label,derived,string,0=No and 1=Yes inferred from field name,Confirm source encoding
+alcohol_label,derived,string,0=No and 1=Yes inferred from field name,Confirm source encoding
+fatigue_label,derived,string,0=No and 1=Yes inferred from field name,Confirm source encoding
+chest_pain_label,derived,string,0=No and 1=Yes inferred from field name,Confirm source encoding
+dizziness_label,derived,string,0=No and 1=Yes inferred from field name,Confirm source encoding
+heart_disease_label,derived,string,0=No and 1=Yes inferred from field name,Confirm source encoding
+diabetes_label,derived,string,0=No and 1=Yes inferred from field name,Confirm source encoding
+stroke_label,derived,string,0=No and 1=Yes inferred from field name,Confirm source encoding
