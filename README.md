@@ -23,7 +23,6 @@ The published workbook includes nine analytical worksheets, a dashboard with six
 - `Tableau/` — three original assessment reference PDFs.
 - `tableau/` — Tableau build guide and performance-test template.
 - `docs/` — project documentation and demo script.
-- `PROJECT_STATUS.md`, `PUBLISHING_CHECKLIST.md` — handoff notes.
 
 ## Run locally
 Static site: open `index.html` in a modern browser.
