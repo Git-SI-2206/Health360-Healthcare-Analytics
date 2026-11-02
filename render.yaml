@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: health360-healthcare-analytics
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    healthCheckPath: /healthz
+    envVars:
+      - key: TABLEAU_DASHBOARD_URL
+        value: https://public.tableau.com/views/Health360_Clinical_Healthcare_Risk_Analysis/Health360_Dashboard_Final_
+      - key: TABLEAU_STORY_URL
+        value: https://public.tableau.com/views/Health360_Clinical_Healthcare_Risk_Analysis/Health360_Patient_Risk_Lifestyle_Insights
+      - key: GITHUB_REPOSITORY_URL
+        value: https://github.com/Git-SI-2206/Health360-Healthcare-Analytics
